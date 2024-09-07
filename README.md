@@ -23,11 +23,6 @@ console.log(wildcardMatch("abcfilenameabc", "*xx*name*xx*")); // false
 console.log(wildcardMatch("xxabcnamexx", "*xx*name*xx*")); // true
 ```
 
-## types
-```ts
-/// <reference types="@jswork/wildcard-match/global.d.ts" />
-```
-
 ## license
 Code released under [the MIT license](https://github.com/afeiship/wildcard-match/blob/master/LICENSE.txt).
 
