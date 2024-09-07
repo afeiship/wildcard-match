@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wildcard-match",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function for matching strings using * wildcard patterns.",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
@@ -34,5 +34,12 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "fast",
+    "glob",
+    "match",
+    "star",
+    "wildcard"
+  ]
 }
