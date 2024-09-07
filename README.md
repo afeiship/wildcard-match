@@ -15,7 +15,12 @@ npm install @jswork/wildcard-match
 ```js
 import wildcardMatch from '@jswork/wildcard-match';
 
-// usage goes here.
+// 测试案例
+console.log(wildcardMatch("filename.txt", "*name")); // false
+console.log(wildcardMatch("filename.txt", "name*")); // false
+console.log(wildcardMatch("filename.txt", "*name*")); // true
+console.log(wildcardMatch("abcfilenameabc", "*xx*name*xx*")); // false
+console.log(wildcardMatch("xxabcnamexx", "*xx*name*xx*")); // true
 ```
 
 ## types
