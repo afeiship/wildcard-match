@@ -1,9 +1,0 @@
-/*webkit-sassui-block-quote Start*/
-@mixin webkit-sassui-block-quote($inBorderColor:#f57e42,$inBgColor:whitesmoke,$inColor:#333,$inPadding:10px) {
-  //Your mixin code goes here.
-  background-color: $inBgColor;
-  border-left: 4px solid $inBorderColor;
-  color:$inColor;
-  padding:$inPadding;
-}
-/*webkit-sassui-block-quote End*/
