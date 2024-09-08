@@ -1,7 +1,8 @@
 import wildcardMatch from '../src';
 
 describe('api.basic', () => {
-  test('01/basic', () => {
+  test.only('01/basic', () => {
+    expect(wildcardMatch('axxxc', 'a*c',)).toBe(true);
     expect(wildcardMatch('foo', '*')).toBe(true);
     expect(wildcardMatch('foo', 'fo')).toBe(false);
     expect(wildcardMatch('foo', 'foo')).toBe(true);
